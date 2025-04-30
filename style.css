@@ -12,8 +12,7 @@ body {
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
 }
 
 li {
@@ -22,7 +21,37 @@ li {
 a{
   text-decoration: none;
   color: black;
-  font-size: 35pt;
-  margin-right: 50px;
-  
+  font-size: 33pt;
+  margin-right: 67px;
+  text-align: center;
+}
+
+#virsraksts {
+  font-size: 110pt;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 90px;
+}
+#sauklis {
+  font-size: 30pt;
+  text-align: right;
+  margin-right: 470px;
+  margin-top: 2px;
+}
+
+.kalnia-normal {
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+.logo {
+  width: 235px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: absolute;
+  top: 686px;
+  left: 1577px;
 }
